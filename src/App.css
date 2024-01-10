@@ -2,13 +2,13 @@
   background: #de6161; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #2657eb,
-    #de6161
+    #071c58,
+    #a32d6e
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #2657eb,
-    #de6161
+    #071c58,
+    #a32d6e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
@@ -20,13 +20,13 @@
   background: #de6161; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #2657eb,
-    #de6161
+    #071c58,
+    #a32d6e
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #2657eb,
-    #de6161
+    #071c58,
+    #a32d6e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -36,7 +36,7 @@
   height: 200px;
   overflow: hidden;
   border-radius: 50%;
-  border: 2px solid #ddd;
+  
   margin-left: auto;
   margin-right: auto;
 }
@@ -49,16 +49,23 @@
 
 .banner-text {
   border-radius: 10px;
-  background-color: black;
+  background: linear-gradient(
+    to right,
+    #5169ac,
+    #c65b96
+  );
   opacity: 0.8;
   width: 75%;
   margin: auto;
+  
+
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 30px;
   font-weight: bold;
-  color: #fff;
+  color: rgb(247, 237, 243);
+ 
 }
 
 .banner-text hr {
@@ -68,9 +75,10 @@
 }
 
 .banner-text p {
-  color: white;
+  color: rgb(250, 241, 250);
   font-size: 20px;
   padding: 1em;
+  font-weight: bold;
 }
 
 .social-links {
@@ -145,4 +153,9 @@
   padding-top: 0px;
   margin-top: 0px;
   color: #fff;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
 }

@@ -12,42 +12,33 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="images/ismail.jpg"
-                alt="avatar"
+                src="images/sonam.jpg"
+                alt="sonam"
                 style={{ height: "250px" }}
               />
             </div>
 
-            <h2 style={{ paddingTop: "1em" }}>Ismael Miah</h2>
-            <h4 style={{ color: "grey" }}>Asp .Net Developer</h4>
+            <h2 style={{ paddingTop: "1em" }}>Sonam Kumari</h2>
+            <h5 style={{ color: "grey" }}>MERN Stack Developer</h5>
             <hr style={{ borderTop: "2px solid #833fb2", width: "50%" }} />
             <p style={{ textAlign: "justify" }}>
-              This is Ismael Miah. I’m an enthusiastic, responsible, self-motivated and hard-working person.
-              I’m able to work well under pressure and adhere to strict deadlines.
-              Being worked for different projects helped me to adapt to the changes quickly and made me a mature team worker.
-            </p>
+              Hello, I'm Sonam Kumari, a versatile tech enthusiast and full-stack MERN developer with a passion for cutting-edge technologies.
+              My expertise extends across the realms of machine learning, AWS cloud computing, and C++ programming. With a keen interest in exploring the frontiers of technology, I bring a dynamic skill set to the table. My journey as a developer is characterized by a commitment to staying at the forefront of innovation,
+              ensuring that I deliver solutions that align with the ever-evolving landscape of the tech industry.</p>
             <hr style={{ borderTop: "2px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
-            <p>Raipura-1630, Narsingdi, Dhaka</p>
+            <p></p>
             <h5>Phone</h5>
-            <p>(+880) 1642259188</p>
+            <p>(+91) 8434047566</p>
             <h5>Email</h5>
-            <p>ismaelmiah.swe@gmail.com</p>
-            <h5>Web</h5>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-              href="https://talent-programmer.blogspot.com"
-            >
-              My Programming Blog
-            </a>
+            <p>er.sonam2712kumari@gmail.com</p>
+           
             <h5>Download CV</h5>
             <a
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
-              href="/Resume_Of_Ismael_Miah.pdf"
+              href="/Resume(4).pdf"
             >
               My Update CV
             </a>
@@ -55,85 +46,56 @@ class Resume extends Component {
           <Cell className="resume-right-col" col={8}>
             <h2>Experience</h2>
             <Experience
-              startYear={"February 2021"}
+              startYear={"september 2021"}
               endYear={"Present"}              
-              jobName={"Software Engineer"}
-              companyName={"ASTHA IT"}
+              jobName={"Full Stack Web Deveoper"}
+              companyName={"Cloud Computing Cell , AKGEC"}
               jobDesc={
-                [
-                  "Improving functionality and incorporating new features as per requirements on a Communicative tool for building management to be used by owners, residents, building managers, and strata managers. StrataSpot Built using .Net Framework and MSSQL",
-                  "Worked on building different sections for the e-commerce platform of Transcom Digital. Built using NextJs, .Net Core 3.1 & MongoDB",
-                  "Enhancing features and improvements existing functionality of a social media platform for the Hawai’i-based volunteering students to organize, plan and collaborate as the Global Aloha initiative built using Angular, .Net Core 3.1 & PostgreSQL",
-                  "Supported frontend by providing Rest API.",
-                  "Revised, modularized and updated old code bases, reducing operating costs."
+                ["I'm a Full Stack Web Developer currently contributing to the Cloud Computing Cell at AKGEC. I take pride in successfully orchestrating diverse events and fostering teamwork, drawing from my rich experience in various projects. L",
+                  "Beyond the code, I'm an enthusiastic C++ coder and machine learning developer, always eager to delve into challenges and participate in competitions. ",
+                  "Throughout my journey, I have orchestrated successful events, showcasing my proficiency in project management and teamwork. With a diverse portfolio of completed projects and active participation in competitions, I thrive in dynamic, collaborative environments. My enthusiasm extends to C++ coding and machine learning development, where I continue to explore and contribute to the ever-evolving tech landscape. Enhancing features and improvements existing functionality of a social media platform for the Hawai’i-based volunteering students to organize, plan and collaborate as the Global Aloha initiative built using Angular, .Net Core 3.1 & PostgreSQL",
+                  "Excited about the limitless possibilities technology offers, I am poised to create meaningful impact and drive innovation in every endeavorupported frontend by providing Rest API.",
+                 
                 ]
               }
             />
-            <Experience
-              startYear={"April 2021"}
-              endYear={"May 2021"}
-              duration= {2}
-              jobName={"Internship (Remote)"}
-              companyName={"Dev Skill"}
-              jobDesc={[
-                "Worked on active development project. DevSkill built using Asp .Net-5 & MSSQL",
-                "Writing, improving & fixing Unit tests.",
-                "Designing & developing new features."
-              ]
-              }
-            />
-            <Experience
-              startYear={"December 2020"}
-              endYear={"January 2021"}
-              duration= {2}
-              jobName={"Internee"}
-              companyName={"ASTHA IT"}
-              jobDesc={
-                [
-                  "It was a part-time Internship program " ,
-                   "I have completed several assignments that provided by Senior Software Engineers",
-                "I learnt lot of tech things from this company I now had a chance to test my knowledge in the real world through an internship."]
-              }
-            />
-            <Experience
-              startYear={"Spring 2019"}
-              endYear={"Fall 2019"}
-              duration= {12}
-              jobName={"ACM Trainer"}
-              companyName={"Daffodil International University"}
-              jobDesc={["Teach C Programming Language 1st year students", "Introduced them to CP world", "Made several team out of them"]}
-            />
-            <Experience
-              startYear={"Spring 2020"}
-              endYear={"Summer 2020"}
-              duration= {4}
-              jobName={"ACM Problem Setter"}
-              companyName={"Daffodil International University"}
-              jobDesc={
-                ["Problem setter on DIU Take OFF Programming Contest And Several others contest at Daffodil"]
-              }
-            />
-
+           
+           
+           
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Education</h2>
             <Education
-              startYear={2017}
+              startYear={2021}
+              endYear={2025}
+              schoolName={"Ajay Kumar Garg Engineering College , Ghaziabad"}
+              degreeName={"B.Tech in Computer Science & Engineering with specialization in Datascience"}
+            />
+             <Education
+              startYear={2018}
               endYear={2020}
-              schoolName={"Daffodil International University"}
-              degreeName={"Bsc In Software Engineering"}
+              schoolName={"Jamshedpur Women's College"}
+              degreeName={" Completed Senior Secondary School with 7.34 CGPA"}
+            />
+             <Education
+              startYear={2008}
+              endYear={2018}
+              schoolName={"Gurunanak High School , Mango"}
+              degreeName={" Completed High School with 8.7 CGPA"}
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />            
             <h2>Skills</h2>
             <Skills skill={"HTML/CSS"} progress={80} />
-            <Skills skill={"ReactJS"} progress={60} />
-            <Skills skill={"Angular"} progress={70} />
-            <Skills skill={"C#"} progress={90} />
-            <Skills skill={"Asp .Net Core"} progress={90} />
-            <Skills skill={"SQL Server"} progress={80} />
+            <Skills skill={"Javascript"} progress={80} />
+            <Skills skill={"ReactJS"} progress={80} />
+            <Skills skill={"NodeJS"} progress={80} />
+            <Skills skill={"MongoDB"} progress={80} />
+            <Skills skill={"Express JS"} progress={80} />
+            <Skills skill={"AWS"} progress={80} />
+            <Skills skill={"Prompt Engineering"} progress={80} />
+            <Skills skill={"C++"} progress={80} />
+            
             <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Achievments</h2>
-            <h6>6th at SWE Junior Programming Contest (03/2019)</h6>
-            <h6>9th Position at DIU TakeOff Programming Contest (04/2017)</h6>
+          
           </Cell>
         </Grid>
       </div>

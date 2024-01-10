@@ -20,56 +20,61 @@ class Projects extends Component {
       activeTab: 0,
     };
 
-    this.chatApplication = () => {
+    this.RecommendationSystem = () => {
       window.location.assign(
-        "https://github.com/ismail5g/Chat-Application-vai-Web-Socket"
+        "https://github.com/SonamKumari1227/Books-Movies-Recommendation-System"
       );
     };
-    this.calculator = () => {
+    this.PlacementPredictor = () => {
       window.location.assign(
-        "https://github.com/ismail5g/Calculator-Using-ReactJS"
+        "https://github.com/SonamKumari1227/Placement-Prediction"
       );
     };
-    this.portfolio = () => {
-      window.location.assign("https://github.com/ismail5g/my-portfolio");
+    this.WebScrapingBasedProject = () => {
+      window.location.assign(
+        "https://github.com/SonamKumari1227/MultiSite-Web-Scraper-Analyzer"
+      );
     };
-    this.portfoliolive = () => {
-      window.location.assign("https://devismail.netlify.app/");
+    this.WeatherApp = () => {
+      window.location.assign("https://github.com/SonamKumari1227/Weather-App-Using-React-");
     };
-    this.ecommerce = () => {
+    this.MatrixMultiplication = () => {
       window.location.assign("https://github.com/ismail5g/EasyBazar");
     };
-    this.leavemangement = () => {
-      window.location.assign("https://github.com/ismail5g/Leave-Management");
+    this.Calculator = () => {
+      window.location.assign("https://github.com/SonamKumari1227/JS-applications/blob/master/calculator.html");
     };
-    this.crudapplication = () => {
+    this.ToDoApp = () => {
       window.location.assign(
-        "https://github.com/ismail5g/BookListCrud_MVC-Asp.Net-Core"
+        "https://github.com/SonamKumari1227/TaskManager"
       );
     };
-    this.facebook = () => {
+    this.ReactCompositeShowcase = () => {
       window.location.assign(
-        "https://github.com/ismail5g/Facebook-Education-Perpose"
+        "https://github.com/SonamKumari1227/React-Composite-Showcase"
       );
     };
     this.toggleCategories = () => {
       if (this.state.activeTab === 0) {
         return (
+
           <div className="projects-grid">
-            {/* Chat-Application */}
+            {/* Recommendation System */}
+
+
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/chat.jpg) center / cover",
+                  background: "url(images/recommendation.jpg) center / cover",
                 }}
               >
-                Chat Application
+                RecommendationSystem
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is a chat Application developed on a running course from
-                UDEMY.
+                This is a Books and Movies Recommendation System, based on NLP ,
+                Mchine learning.
               </CardText>
               <CardActions border>
                 <Button
@@ -77,7 +82,7 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.chatApplication.bind(this)}
+                  onClick={this.RecommendationSystem.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
@@ -89,19 +94,26 @@ class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-            {/* Calculator */}
+
+
+
+
+
+
+            {/* Plcaement Predictor*/}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/calculator.png) center / cover",
+                  background: "url(images/PlacementPredictor.png) center / cover",
                 }}
+              
               >
-                Standard Calculator
+                Plcaement Predictor
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is a first REACT app i developed. The noobie calculator
+                Logistic Regression based Plcaement Predictor
               </CardText>
               <CardActions border>
                 <Button
@@ -109,7 +121,7 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.calculator.bind(this)}
+                  onClick={this.PlacementPredictor.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
@@ -121,20 +133,23 @@ class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-            {/* Portfolio */}
+
+
+
+
+            {/* Web Scarping */}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/portfolio.png) center / cover",
+                  background: "url(images/Webscraping.png) center / cover",
                 }}
               >
-                Portfolio
+                End To End Data Analysis Project
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This portfolio designed by REACT JS on 25th August 2020. And it
-                takes 2 days to Complete.
+                This is a end to end multi site Web Scraing and and analyzing different variables and craeting a output excel sheet.
               </CardText>
               <CardActions border>
                 <Button
@@ -142,7 +157,7 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.portfolio.bind(this)}
+                  onClick={this.WebScrapingBasedProject.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
@@ -156,23 +171,23 @@ class Projects extends Component {
             </Card>
           </div>
         );
-      } else if (this.state.activeTab === 1) {
+      }
+      else if (this.state.activeTab === 1) {
         return (
           <div className="projects-grid">
-            {/* Ecom-Application */}
+            {/* Weather app */}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/e-commerce.png) center / cover",
+                  background: "url(images/WeatherApp.png) center / cover",
                 }}
               >
-                E-Commerce Shop
+                Weather Application
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is an Ecommerce Online Shop developed with following MODAZ
-                e-commerce theme.
+                This is an Weather application with amazing UI/UX.
               </CardText>
               <CardActions border>
                 <Button
@@ -180,7 +195,7 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.ecommerce.bind(this)}
+                  onClick={this.WeatherApp.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
@@ -192,20 +207,20 @@ class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-            {/* Leave-management */}
+
+            {/* MatrixMultiplication  */}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/leave-management.png) center / cover",
+                  background: "url(images/MatrixMultiplication.png) center / cover",
                 }}
               >
-                Leave Management
+                Matrix Multiplication
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is dynamic Leave management system developed for an
-                corporate organization.
+                This is an app for matrix Multiplication built by using the javascript with amazing UI/UX.
               </CardText>
               <CardActions border>
                 <Button
@@ -213,7 +228,7 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.leavemangement.bind(this)}
+                  onClick={this.MatrixMultiplication.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
@@ -225,20 +240,21 @@ class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-            {/* Ecom-Application */}
+
+
+            {/* calculator */}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/crud-app.png) center / cover",
+                  background: "url(images/calculator.png) center / cover",
                 }}
               >
-                CRUD Application
+                Calculator
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is a CRUD Application developed on a running course from
-                UDEMY.
+                This is a Javascript based Calculator application .
               </CardText>
               <CardActions border>
                 <Button
@@ -246,7 +262,7 @@ class Projects extends Component {
                   raised
                   ripple
                   primary
-                  onClick={this.crudapplication.bind(this)}
+                  onClick={this.Calculator.bind(this)}
                 >
                   <i className="fa fa-github" aria-hidden="true" /> Github
                 </Button>
@@ -264,28 +280,34 @@ class Projects extends Component {
       if (this.state.activeTab === 2) {
         return (
           <div>
-            {/* Store-Procedure */}
+            {/* To do APP */}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/store-procedure.png) center / cover",
+                  background: "url(images/ToDoApp.png) center / cover",
                 }}
               >
-                Store Procedures
+                To-Do-App
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This is simple Store Procedure among lot's of SQL query.
+                Thisis a To do application with amazing UI/UX and uses MongoDB for task storage.
               </CardText>
-              <CardActions border>
-                <Button style={{ margin: "0 10px" }} raised ripple primary>
-                  <i className="fa fa-github" aria-hidden="true" /> Github
-                </Button>
-                <Button raised accent ripple style={{ margin: "0 10px" }}>
-                  <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
-                </Button>
-              </CardActions>
+              
+              <Button
+                style={{ margin: "0 10px" }}
+                raised
+                ripple
+                primary
+                onClick={this.ToDoApp.bind(this)}
+              >
+                <i className="fa fa-github" aria-hidden="true" /> Github
+              </Button>
+              <Button raised accent ripple style={{ margin: "0 10px" }}>
+                <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
+              </Button>
+             
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
               </CardMenu>
@@ -295,66 +317,104 @@ class Projects extends Component {
       } else {
         return (
           <div>
-            {/* facebook */}
+            {/* To do APP */}
             <Card shadow={5} className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
                   height: "180px",
-                  background: "url(images/facebook.jpg) center / cover",
+                  background: "url(images/ToDoApp.png) center / cover",
                 }}
               >
-                Facebook
+                To-Do-App
               </CardTitle>
               <CardText style={{ textAlign: "justify" }}>
-                This facebook developed on a semester for educational purpose
-                only.
+                Thisis a To do application with amazing UI/UX and uses MongoDB for task storage.
               </CardText>
-              <CardActions border>
-                <Button
-                  style={{ margin: "0 10px" }}
-                  raised
-                  ripple
-                  primary
-                  onClick={this.facebook.bind(this)}
-                >
-                  <i className="fa fa-github" aria-hidden="true" /> Github
-                </Button>
-                <Button raised accent ripple style={{ margin: "0 10px" }}>
-                  <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
-                </Button>
-              </CardActions>
+              
+              <Button
+                style={{ margin: "0 10px" }}
+                raised
+                ripple
+                primary
+                onClick={this.ToDoApp.bind(this)}
+              >
+                <i className="fa fa-github" aria-hidden="true" /> Github
+              </Button>
+              <Button raised accent ripple style={{ margin: "0 10px" }}>
+                <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
+              </Button>
+             
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+
+
+
+             {/*ReactCompositeShowcase*/}
+             <Card shadow={5} className="project-item">
+             <CardTitle
+    style={{
+      color: "#333",
+      height: "180px",
+      background: `url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb866WTG6Fy2xBulWMWNgfvPXN0ITUWIavBg&usqp=CAU") center / cover`,
+    }}
+  >
+   react full package
+  </CardTitle>
+              <CardText style={{ textAlign: "justify" }}>
+                This is a full package off all small interesting projects.
+              </CardText>
+              
+              <Button
+                style={{ margin: "0 10px" }}
+                raised
+                ripple
+                primary
+                onClick={this.ReactCompositeShowcase.bind(this)}
+              >
+                <i className="fa fa-github" aria-hidden="true" /> Github
+              </Button>
+              <Button raised accent ripple style={{ margin: "0 10px" }}>
+                <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
+              </Button>
+             
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
               </CardMenu>
             </Card>
           </div>
-        );
+
+
+        )
       }
     };
   }
-
-  render() {
-    return (
-      <div className="category-tabs">
-        <Tabs
-          activeTab={this.state.activeTab}
-          onChange={(tabId) => this.setState({ activeTab: tabId })}
-          ripple
-        >
-          <Tab>React JS</Tab>
-          <Tab>Asp .Net</Tab>
-          <Tab>SQL SERVER</Tab>
-          <Tab>PHP</Tab>
-        </Tabs>
-        <Grid>
-          <Cell col={12}>
-            <div className="content">{this.toggleCategories()}</div>
-          </Cell>
-        </Grid>
-      </div>
-    );
+    render() {
+      return (
+        <div className="category-tabs">
+          <Tabs
+            activeTab={this.state.activeTab}
+            onChange={(tabId) => this.setState({ activeTab: tabId })}
+            ripple
+          >
+            <Tab>Machine Learning</Tab>
+            <Tab>Javascript</Tab>
+            <Tab>ReactJS</Tab>
+            <Tab>NodeJs</Tab>
+            <Tab>MERN</Tab>
+            <Tab>C++</Tab>
+          </Tabs>
+          <Grid>
+            <Cell col={12}>
+              <div className="content">{this.toggleCategories()}</div>
+            </Cell>
+          </Grid>
+        </div>
+      );
+    }
   }
-}
+
 
 export default Projects;
