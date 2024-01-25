@@ -4,10 +4,10 @@ import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 class Contact extends Component {
   render() {
     return (
-      <div className="contact-body">
-        <Grid className="contact-grid">
+      <div className="contact-body" >
+        <Grid className="contact-grid"style={{backgroundColor:'#F5F5F5'}}>
           <Cell col={6}>
-            <h2>Ismael Miah</h2>
+            <h2>Sonam Kumari</h2>
             <img style={{height: '250px'}} src="https://cdn3.iconfinder.com/data/icons/users-6/100/5-512.png" alt="avatar" />
             <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
               I have been very passionate about computers and programming since

@@ -40,7 +40,7 @@ class Homepage extends Component {
                   {" "}
                   <i
                     className="fa fa-github-square"
-                    aria-hidden="true"
+                    aria-hidden="true" style={{ fontSize: '51px' }}
                   ></i>{" "}
                 </a>
                 {/* LinkedIn */}
@@ -51,9 +51,10 @@ class Homepage extends Component {
                 >
                   {" "}
                   <i
-                    className="fa fa-linkedin-square"
-                    aria-hidden="true"
-                  ></i>{" "}
+  className="fa fa-linkedin-square"
+  aria-hidden="true"
+  style={{ fontSize: '50px' }}// Adjust the font size as needed
+></i>{" "}
                 </a>
               </div>
             </div>
